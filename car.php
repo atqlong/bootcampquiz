@@ -1,4 +1,4 @@
-<?php
+  <?php
 
   class Car
   {
@@ -6,13 +6,15 @@
     private $wheel;
     private $boot;
     private $engine;
+    private $price;
 
-    public function __construct($door, $wheel, $boot, $engine)
+    public function __construct($door, $wheel, $boot, $engine, $price)
     {
-        $this->door = $door;
-        $this->wheel = $wheel;
-        $this->boot = $boot;
-        $this->engine = $engine;
+      $this->door = $door;
+      $this->wheel = $wheel;
+      $this->boot = $boot;
+      $this->engine = $engine;
+      $this->price = $price;
     }
     public function getDoor()
     {
@@ -30,9 +32,14 @@
     {
       return $this->engine;
     }
+    public function setPrice()
+    {
+      $this->price = $_GET['price'];
+      return $this->price;
+    }
   }
 
-  $car = new Car();
-  echo $car;
-  
- ?>
+  $car = new Car(1, 2, 3, 4, 5);
+  var_dump($car);
+
+  ?>

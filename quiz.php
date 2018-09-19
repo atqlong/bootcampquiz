@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <title>Monday morning HTML Quiz</title>
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="QuizStyle.css">
 
 </head>
+
 <body>
 
 
@@ -46,26 +48,48 @@
     <li>CSS is the language used for describing the presentation of Web pages to the browser.</li>
     <li>CSS can be applied internally into the HTML by being directly placed within the header tags within the HTML.
       CSS can also be applied externally by linking to a seperate CSS file also within the HTML header tags.</li>
-    </ol>
+  </ol>
 
-    <h1>Section 1</h1>
-    <p>Classes are important because they allow a programmer to group functions and variables into one contained object
+  <h1>Section 3</h1>
+  <p>Classes are important because they allow a programmer to group functions and variables into one contained object
     which won't interfere with another objects.</p>
-    <p>Methods & functions</p>
+  <p>Methods & functions</p>
+
+
+
+  <!-- Section 3: Classes
+      9. Why are classes considered helpful in application development?
+
+      10. What 2 things does a class capture?
+
+      11. Create a class that represents a Car.
+
+      Provide 2 method signatures (not including the constructor - you choose the methods) that you feel would be helpful.
+      Choose a few appropriate properties to model in your class.
+      12. Show how your Car class may be instantiated and have one of its methods invoked (called). -->
+
+
+  <!-- Form for Price Function within car.php -->
+  <form class="" action="index.html" method="get">
+    <input type="number" name="price" value="Submit">
+
+    <br>
 
     <?php require 'car.php'; ?>
 
-    <!-- Section 3: Classes
-    9. Why are classes considered helpful in application development?
+    <!-- Section 3: Variables / Flow control
+        13. Create a loop that builds a 'bag' of all odd numbers between 0 and 100.
 
-    10. What 2 things does a class capture?
+        14. Using your 'odd bag', determine the sum of these numbers.
 
-    11. Create a class that represents a Car.
+        If the sum is greater than 2000, assign & output a result variable the message - "BIG"
+        If equal to 2000 - "MEH"
+        Otherwise - "SMALL"
+        NB - bonus points are available if you organise your code into a class with an appropriate name & method etc. -->
 
-    Provide 2 method signatures (not including the constructor - you choose the methods) that you feel would be helpful.
-    Choose a few appropriate properties to model in your class.
-    12. Show how your Car class may be instantiated and have one of its methods invoked (called). -->
 
 
-  </body>
-  </html>
+
+</body>
+
+</html>
