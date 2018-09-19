@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Monday morning HTML Quiz</title>
 
+  <!-- Quiz.php's CCS file -->
   <link rel="stylesheet" href="QuizStyle.css">
+
+  <title>Monday morning HTML Quiz</title>
 
 </head>
 
 <body>
-
-
 
   <h1>Section 1</h1>
 
@@ -79,13 +78,16 @@
 
     <!-- Section 3: Variables / Flow control
         13. Create a loop that builds a 'bag' of all odd numbers between 0 and 100.
+        <?php require 'oddBag.php' ?>
 
         14. Using your 'odd bag', determine the sum of these numbers.
+        
 
         If the sum is greater than 2000, assign & output a result variable the message - "BIG"
         If equal to 2000 - "MEH"
         Otherwise - "SMALL"
         NB - bonus points are available if you organise your code into a class with an appropriate name & method etc. -->
+
 
 
 
