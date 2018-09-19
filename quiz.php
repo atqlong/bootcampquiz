@@ -81,7 +81,6 @@
         <?php require 'oddBag.php' ?>
 
         14. Using your 'odd bag', determine the sum of these numbers.
-        
 
         If the sum is greater than 2000, assign & output a result variable the message - "BIG"
         If equal to 2000 - "MEH"
