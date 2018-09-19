@@ -88,6 +88,77 @@
         NB - bonus points are available if you organise your code into a class with an appropriate name & method etc. -->
 
 
+        <!-- Section 4: Database Schemas
+        15. What is a Schema, and what 3 core things does it consist of?
+
+        16. How does a DB Schema map to (a) classes, and (b) instances of that class (objects)?
+
+        17. Design a Schema that fits the following requirements:
+
+        A car dealership requires an online showroom.
+        They currently sell 3 makes of car - Audi, BMW, and Porsche.
+        Each make has several models - Audi A3 & A4; BMW 323, 523 etc.
+        The dealership has a number of salespeople.
+        18. At the end of each month, it's important for the dealership to easily discover:
+
+        Who was the 'best' salesman?
+        What make of car was the most 'successful'?
+        What model was the most 'successful'?
+                -> Explain how they would find this out (SQL query if possible, or just describe in words).
+                -> Any thoughts on 'best' / 'successful'? -->
+
+<h1>Section 4</h1>
+
+<p>A schema is a visual representation of a database. 3 core elements of a
+  database schema include Tables, indexes and procedures.</p>
+
+<p>In a schema map tables are corrspond to a class because the class do not change. An object is created from a class.</p>
+
+<h2>Schema Design</h2>
+
+  <h2>Car</h2>
+  <ol>
+    <li>car_id</li>
+    <li>model</li>
+    <li>engine</li>
+    <li>RRP</li>
+  </ol>
+
+  <h2>Salesperson</h2>
+  <ol>
+    <li>sp_id</li>
+    <li>name</li>
+    <li>email</li>
+  </ol>
+
+  <h2>Sales</h2>
+  <ol>
+    <li>sale_price</li>
+    <li>car_id</li>
+    <li>sp_id</li>
+  </ol>
+
+  Who was the 'best' salesman?
+  What make of car was the most 'successful'?
+  What model was the most 'successful'?
+          -> Explain how they would find this out (SQL query if possible, or just describe in words).
+          -> Any thoughts on 'best' / 'successful'? -->
+
+  <p>To identify the 'best' salesmen you need to identify the salesmen with the highest overall revenue for each month.
+  To do this you would have to call the sale_price, the car_id and the sp_id from the Sales Table within the SQL database.
+  Then you would multipul the car_id by the sales_price to find the total revenue for the dealership. Finally, you would
+  divide the Total dealership revenue by the sp_id to work out the revenue for each sales person with the sales perso
+  with the highest revenue being the most successful. You would then repeat this process for model by replacing sales_id
+  with model.  </p>
+
+
+
+
+
+
+
+
+
 
 
 
