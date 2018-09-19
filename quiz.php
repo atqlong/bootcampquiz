@@ -46,9 +46,26 @@
     <li>CSS is the language used for describing the presentation of Web pages to the browser.</li>
     <li>CSS can be applied internally into the HTML by being directly placed within the header tags within the HTML.
       CSS can also be applied externally by linking to a seperate CSS file also within the HTML header tags.</li>
-  </ol>
+    </ol>
+
+    <h1>Section 1</h1>
+    <p>Classes are important because they allow a programmer to group functions and variables into one contained object
+    which won't interfere with another objects.</p>
+    <p>Methods & functions</p>
+
+    <?php require 'car.php'; ?>
+
+    <!-- Section 3: Classes
+    9. Why are classes considered helpful in application development?
+
+    10. What 2 things does a class capture?
+
+    11. Create a class that represents a Car.
+
+    Provide 2 method signatures (not including the constructor - you choose the methods) that you feel would be helpful.
+    Choose a few appropriate properties to model in your class.
+    12. Show how your Car class may be instantiated and have one of its methods invoked (called). -->
 
 
-
-</body>
-</html>
+  </body>
+  </html>
